@@ -1,0 +1,114 @@
+body {
+  background-color: #0f0f0f;
+  background-image: url("../images/bg.png");
+  background-size: 140%;
+  color: white;
+  font-family: "Lucida Sans";
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0 0 15px;
+  text-align: center;
+}
+
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+li a {
+  color: #f1f1f1;
+  display: block;
+  padding: 10px 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about {
+  font-size: 18px;
+}
+
+.about h1 {
+  color: #f1f1f1;
+}
+
+a.cp {
+  opacity: 75%;
+}
+
+a:hover {
+  color: #f1f1f1;
+}
+
+.downloads img {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #212121;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.navbar img {
+  float: left;
+  height: 90px;
+  padding: 5px;
+  width: 90px;
+}
+
+.navbar li {
+  float: right;
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+
+.newestVideo {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-start: 3;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.projectFiles li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.social {
+  font-size: xx-large;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer {
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+footer hr {
+  width: 20%;
+}
+
+#discord {
+  float: left;
+}

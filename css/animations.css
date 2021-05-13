@@ -1,0 +1,31 @@
+@keyframes onLink {
+  0% {
+    color: #f1f1f1;
+  }
+  50% {
+    color: #b1b1b1;
+  }
+  100% {
+    color: #f1f1f1;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+main {
+  animation: transitionIn 1s ease forwards;
+}
+
+a:hover {
+  animation-name: onLink;
+  animation-duration: 0.7s;
+}

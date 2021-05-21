@@ -1,7 +1,7 @@
 body {
   background-color: #0f0f0f;
-  background-image: linear-gradient(-140deg, #1c1c1c, #101010);
-  background-size: 140%;
+  background-image: url(../images/bg.png);
+  background-size: 110%;
   color: white;
   font-family: "Lucida Sans";
   overflow-x: hidden;

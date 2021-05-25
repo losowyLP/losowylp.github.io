@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Lucida+Sans");
 body {
   background-color: #0f0f0f;
   background-image: url(../images/bg.png);
-  background-size: 110%;
+  background-size: 200%;
+  background-position: center;
   color: white;
   font-family: "Lucida Sans";
   overflow-x: hidden;
@@ -107,8 +109,4 @@ footer {
 
 footer hr {
   width: 20%;
-}
-
-#discord {
-  float: left;
 }

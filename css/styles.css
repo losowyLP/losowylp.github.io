@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Lucida+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 body {
   background-color: #0f0f0f;
   background-image: url(../images/bg.png);
   background-size: 200%;
   background-position: center;
   color: white;
-  font-family: "Lucida Sans";
+  font-family: "Noto Sans", sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0 0 15px;

@@ -3,15 +3,13 @@ body {
   background-color: #0f0f0f;
   background-image: url(../images/bg.png);
   background-size: 200%;
-  background-position: center;
   color: white;
   font-family: "Noto Sans", sans-serif;
   overflow-x: hidden;
+  overflow-y: auto;
   margin: 0;
   padding: 0 0 15px;
   text-align: center;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 a {
@@ -100,5 +98,7 @@ footer hr {
   body {
     background-image: none;
     background-color: #0f0f0f;
+    background-repeat: no-repeat;
+    size: 50%;
   }
 }

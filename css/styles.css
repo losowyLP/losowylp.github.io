@@ -98,7 +98,7 @@ footer hr {
   body {
     background-image: none;
     background-color: #0f0f0f;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     size: 50%;
   }
 }

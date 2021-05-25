@@ -10,6 +10,8 @@ body {
   margin: 0;
   padding: 0 0 15px;
   text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -33,10 +35,6 @@ ul {
 
 .about {
   font-size: 18px;
-}
-
-.about h1 {
-  color: #f1f1f1;
 }
 
 a.cp {
@@ -77,23 +75,10 @@ a:hover {
   font-size: 30px;
 }
 
-.grid-container {
-  display: grid;
-
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  grid-column-start: 1;
-  grid-column-start: 3;
-}
-
-.grid-item {
-  padding: 20px;
-  text-align: center;
-}
-
 .projectFiles li {
   padding: 10px;
   list-style-type: none;
+  padding-bottom: 10px;
 }
 
 .social {
@@ -109,4 +94,11 @@ footer {
 
 footer hr {
   width: 20%;
+}
+
+@media screen and (max-width: 1200px) and (max-height: 600px) {
+  body {
+    background-image: none;
+    background-color: #0f0f0f;
+  }
 }

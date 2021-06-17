@@ -87,17 +87,9 @@ a:hover {
 
 footer {
 	font-size: 20px;
-	margin-top: 5%;
+	margin-top: 4%;
 }
 
 footer hr {
 	width: 20%;
-}
-
-@media screen and (max-width: 1500px) and (max-height: 900px) {
-	body {
-		background-image: none;
-		background-color: #0f0f0f;
-		background-repeat: repeat;
-	}
 }

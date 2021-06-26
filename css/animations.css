@@ -10,7 +10,7 @@
   }
 }
 
-@keyframes transitionIn {
+@keyframes inTransition {
   from {
     opacity: 0;
     transform: translateX(-50px);
@@ -23,7 +23,7 @@
 }
 
 main {
-  animation: transitionIn 1s ease forwards;
+  animation: inTransition 1s ease forwards;
 }
 
 a:hover {

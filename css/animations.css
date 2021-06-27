@@ -22,13 +22,28 @@
   }
 }
 
-main {
-  animation: inTransition 1s ease forwards;
-  animation-delay: 100ms;
+@keyframes inTransitionHr{
+  from {
+    opacity: 40%;
+    width: 80%;
+  }
+  to {
+    opacity: 80%;
+    width: 25%;
+  }
 }
 
 header {
   animation: inTransition 1s ease forwards;
+}
+
+hr {
+  animation: inTransitionHr 1s ease forwards;
+}
+
+main {
+  animation: inTransition 1s ease forwards;
+  animation-delay: 100ms;
 }
 
 a:hover {

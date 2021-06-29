@@ -42,6 +42,43 @@ a:hover {
 	color: #f1f1f1;
 }
 
+.btn {
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 10px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+}
+
+.btn:active {
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
+	box-shadow: 0px 1px 0px 0px;
+}
+
+.btngradient {
+	background-color: #3689e6;
+	box-shadow: 3px 5px 5px #00000050;
+	border-radius: 1000px;
+	transition: all 1s ease;
+	transform: scale(1);
+}
+
+.btngradient:hover {
+	background-color: #de3e80;
+	color: #fff;
+	transform: scale(1.11) perspective(1px);
+}
+
+.btngradient:hover {
+	background-color: #de3e80;
+	color: #fff;
+	transform: scale(1.11) perspective(1px);
+}
+
 .downloads img {
 	margin-top: 50px;
 	padding: 10px;

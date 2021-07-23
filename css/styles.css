@@ -31,6 +31,10 @@ a.cp {
 	opacity: 70%;
 }
 
+h1 {
+	color: #ddd;
+}
+
 .btn {
 	border-radius: 5px;
 	padding: 10px 40px;
@@ -95,6 +99,10 @@ a.cp {
 	list-style-type: none;
 }
 
+.projects-list {
+	display: grid;
+	
+}
 .social {
 	font-size: x-large;
 	padding-top: 30px;

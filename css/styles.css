@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 body {
 	background-color: #0f0f0f;
-	color: #bbb;
+	color: #d1d1d1;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
 	overflow-x: hidden;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .btngradient {
-	background-color: #5865f2;
+	background-color: #1f1f1f;
 	box-shadow: 3px 5px 5px #00000050;
 	border-radius: 1000px;
 	transition: all 1s ease;
@@ -60,7 +60,7 @@ h1 {
 }
 
 .btngradient:hover {
-	background-color: #eb459e;
+	background-color: #2f2f2f;
 	color: #fff;
 	transform: scale(1.11) perspective(1px);
 }

@@ -1,0 +1,47 @@
+@keyframes onLink {
+	0% {
+		color: #ddd;
+	}
+	50% {
+		color: #aaa;
+	}
+	100% {
+		color: #ddd;
+	}
+}
+@keyframes inTransition {
+	from {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes inTransitionHr {
+	from {
+		opacity: 40%;
+		width: 80%;
+	}
+	to {
+		opacity: 80%;
+		width: 25%;
+	}
+}
+header {
+	animation: inTransition 1s ease forwards;
+}
+hr {
+	animation: inTransitionHr 1s ease forwards;
+}
+main {
+	animation: inTransition 1s ease forwards;
+	animation-delay: 100ms;
+}
+a {
+	&:hover {
+		animation-name: onLink;
+		animation-duration: 0.5s;
+	}
+}

@@ -1,0 +1,37 @@
+@keyframes expand {
+	from {
+		opacity: 0%;
+		width: 20%;
+	}
+	to {
+		opacity: 80%;
+		width: 80%;
+	}
+}
+
+hr {
+	animation: expand 2s ease-in-out;
+}
+
+a {
+	color: seashell;
+	text-decoration: none;
+	transition: opacity 0.5s;
+}
+
+a:hover {
+	opacity: 60%;
+}
+
+#logo {
+	width: 48px;
+	padding: 4px;
+	float: left;
+	background-color: rgb(10, 15, 30);
+	border-radius: 32px;
+	transition: transform 1s ease-in-out;
+}
+
+#logo:hover {
+	transform: rotateZ(360deg);
+}

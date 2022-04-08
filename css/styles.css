@@ -1,125 +1,61 @@
-@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap";
-body {
-  background-color: #0f0f0f;
-  color: #d1d1d1;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  margin: 0;
-  padding: 0 0 15px;
-  text-align: center;
-  scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+	font-family: 'Roboto', sans-serif;
+	color: seashell;
+	background-color: rgb(10, 15, 30);
+	overflow: hidden;
 }
 
-a {
-  color: #ddd;
-  text-decoration: none;
+main p {
+	font-size: 16px;
 }
 
-li a {
-  color: #f1f1f1;
-  display: block;
-  padding: 10px 10px;
+div.navbar {
+	font-size: 32px;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(20, 25, 40);
+	border-radius: 8px;
+	padding: 8px;
+}
+
+main {
+	margin: 64px;
+}
+
+div.navbar nav {
+	padding: 8px;
+	display: list-item;
+	float: right;
+	vertical-align: middle;
+}
+
+hr {
+	width: 80%;
+	opacity: 80%;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 8px;
 }
 
-a.cp {
-  opacity: 70%;
+#socials {
+	text-align: center;
+	font-size: 24px;
 }
 
-h1 {
-  color: #ddd;
+.vertLine {
+	border-right: 1px seashell;
 }
 
-.btn {
-  border-radius: 5px;
-  padding: 10px 40px;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 10px;
-  color: #fff;
-  position: relative;
-  display: inline-block;
+.center {
+	text-align: center;
 }
-.btn:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-}
-
-.btngradient {
-  background-color: #1f1f1f;
-  box-shadow: 3px 5px 5px #00000050;
-  border-radius: 1000px;
-  transition: all 1s ease;
-  transform: scale(1);
-}
-.btngradient:hover {
-  background-color: #2f2f2f;
-  color: #fff;
-  transform: scale(1.11) perspective(1px);
-}
-
-.downloads img {
-  margin-top: 10px;
-  padding: 18px;
-}
-
-.navbar {
-  background-color: #212121;
-  margin: 0;
-  overflow: hidden;
-  padding: 0px;
-}
-.navbar img {
-  float: left;
-  height: 90px;
-  padding: 5px;
-  width: 90px;
-}
-.navbar li {
-  float: right;
-  font-size: 30px;
-  margin: 20px 0 0;
-}
-
-.latestVid {
-  font-size: 28px;
-}
-
-.projectFiles li {
-  padding: 10px;
-  list-style-type: none;
-}
-
-.projects-list {
-  display: grid;
-}
-
-.social {
-  font-size: x-large;
-  padding-top: 30px;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
-  grid-template-rows: auto rows;
-}
-.container img {
-  border-radius: 10px;
-}
-
-.m4u {
-  grid-column: 2;
-}
-
-.fire {
-  grid-column: 3;
-}
-
-/*# sourceMappingURL=styles.css.map */

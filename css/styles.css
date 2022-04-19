@@ -7,7 +7,7 @@ html {
 	overflow: hidden;
 }
 
-main p {
+p {
 	font-size: 20px;
 }
 
@@ -48,14 +48,28 @@ ul {
 }
 
 #socials {
-	text-align: center;
 	font-size: 24px;
-}
-
-.vertLine {
-	border-right: 1px seashell;
 }
 
 .center {
 	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+.flex-item {
+	padding: 0px 64px 0px 64px;
+}
+
+#launchpad {
+	width: 256px;
+}
+
+#software {
+	width: 256px;
 }

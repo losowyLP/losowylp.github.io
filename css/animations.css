@@ -19,17 +19,11 @@
 }
 
 main {
-	animation: fade-in 1s ease-out;
+	animation: fade-in 1s linear;
 }
 
 hr {
 	animation: expand 2s ease-in-out;
-}
-
-a {
-	color: seashell;
-	text-decoration: none;
-	transition: opacity 0.5s;
 }
 
 a:hover {

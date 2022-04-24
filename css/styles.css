@@ -8,6 +8,12 @@ html {
 	scroll-behavior: smooth;
 }
 
+a {
+	color: seashell;
+	text-decoration: none;
+	transition: opacity 0.5s;
+}
+
 p {
 	font-size: 20px;
 }

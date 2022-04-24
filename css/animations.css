@@ -30,15 +30,6 @@ a:hover {
 	opacity: 60%;
 }
 
-#logo {
-	width: 48px;
-	padding: 4px;
-	float: left;
-	background-color: rgb(10, 15, 30);
-	border-radius: 32px;
-	transition: transform 1s ease-in-out;
-}
-
 #logo:hover {
 	transform: rotateZ(360deg);
 }

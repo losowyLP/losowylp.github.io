@@ -4,7 +4,8 @@ html {
 	font-family: 'Roboto', sans-serif;
 	color: seashell;
 	background-color: rgb(10, 15, 30);
-	overflow: hidden;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 p {

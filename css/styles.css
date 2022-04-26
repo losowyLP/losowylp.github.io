@@ -11,7 +11,7 @@ body {
 a {
 	color: seashell;
 	text-decoration: none;
-	transition: opacity 0.5s;
+	transition: all 0.5s;
 }
 
 p {

@@ -30,6 +30,10 @@ a:hover {
 	opacity: 60%;
 }
 
+#socials a:hover {
+	letter-spacing: 1px;
+}
+
 #logo:hover {
 	transform: rotateZ(360deg);
 }

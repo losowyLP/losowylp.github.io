@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="application-name" content="losowyLP">
+	<meta name="application-name" content="losowy">
 	<meta name="description" content="losowylp.github.io">
-	<meta name="keywords" content="losowy, losowyLP, Nyusite">
+	<meta name="keywords" content="losowy, losowyLP, Nyusite, ">
 	<meta name="image" content="images/logo.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/png" href="./images/logo.png" />
 	<title>losowy</title>
+	<link rel="icon" href="images/logo.png">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/animations.css">
 </head>
@@ -18,8 +18,8 @@
 		<a href="#"><img src="images/logo.png" alt="logo" id="logo"></a>
 		<nav class="navbar">
 			<a href="#">home</a>
-			<a href="./socials.html">socials</a>
-			<a href="./downloads.html">downloads</a>
+			<a href="socials.html">socials</a>
+			<a href="downloads.html">downloads</a>
 		</nav>
 	</div>
 	
@@ -28,10 +28,15 @@
 		<h2 class="center">13 y/o programmer/music producer</h2>
 		<hr>
 		<h1 class="center">about</h2>
-		<p class="center">hi there! i'm a <span class="tooltip">13 year old<span class="tooltiptext">8th December 2008</span></span> boy from poland. i greatly enjoy programming and music production.<br>
-		i started programming and music production at about the same time, which was in 2019.</p>
-
-		
+		<p class="center">hi there!<br>
+			i'm a 13 y/o boy from poland.
+			i'm a programmer and a music producer with approx. <span id="exp"></span> years of experience</p>
 	</main>
+	<script>
+		const date = new Date;
+		let exp = document.getElementById('exp')
+		
+		exp.innerText = date.getFullYear() - 2019;
+	</script>
 </body>
 </html>

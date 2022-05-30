@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+
 body {
+	--bg: #0A0F1E;
+
 	font-family: 'Roboto', sans-serif;
 	color: seashell;
-	background-color: rgb(10, 15, 30);
+	background-color: var(--bg);
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
@@ -25,7 +28,7 @@ div.navbar {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(20, 25, 40);
+	background-color: #141928;
 	border-radius: 8px;
 	padding: 8px;
 }
@@ -58,9 +61,9 @@ ul {
 	width: 48px;
 	padding: 4px;
 	float: left;
-	background-color: rgb(10, 15, 30);
+	background-color: var(--bg);
 	border-radius: 50%;
-	transition: transform 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 #socials {
@@ -80,6 +83,7 @@ ul {
 
 .flex-item {
 	padding: 0px 64px 0px 64px;
+	text-align: center;
 }
 
 #launchpad {
@@ -88,28 +92,4 @@ ul {
 
 #software {
 	width: 256px;
-}
-
-.tooltip {
-	position: relative;
-	display: inline-block;
-	text-decoration: underline;
-}
-
-.tooltip .tooltiptext {
-	font-size: 16px;
-	width: auto;
-	background-color: #111;
-	border-radius: 8px;
-	position: absolute;
-	z-index: 1;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -60px;
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-
-.tooltip:hover .tooltiptext {
-	opacity: 1;
 }

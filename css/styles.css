@@ -29,6 +29,7 @@ div.navbar {
 	padding: 0;
 	overflow: hidden;
 	background-color: #141928;
+	background: linear-gradient(135deg, #141928, #1e2332);
 	border-radius: 8px;
 	padding: 8px;
 }
